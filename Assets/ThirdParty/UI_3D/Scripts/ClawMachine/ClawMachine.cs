@@ -132,7 +132,7 @@ namespace UnityEngine.XR.Content.Interaction
         /// </summary>
         public void OnButtonPress()
         {
-            m_ButtonPressed = true;
+            m_ButtonPressed = !m_ButtonPressed;
         }
 
         /// <summary>
